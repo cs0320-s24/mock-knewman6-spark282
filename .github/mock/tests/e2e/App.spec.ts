@@ -160,3 +160,4 @@ test("invalid commands show error message", async ({ page }) => {
     page.getByText("Command not found: invalid_command")
   ).toBeVisible();
 });
+

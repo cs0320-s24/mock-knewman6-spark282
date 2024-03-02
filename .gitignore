@@ -1,6 +1,6 @@
-mock/node_modules/
-mock/src/*.js
+.github/mock/node_modules
+.github/mock/src/*.js
 .DS_Store
-mock/test-results/
-mock/playwright-report/
-mock/playwright/.cache/
+.github/mock/test-results/
+.github/mock/playwright-report/
+.github/mock/playwright/.cache/
