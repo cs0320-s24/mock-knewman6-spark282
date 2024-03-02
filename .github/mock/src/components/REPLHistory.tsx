@@ -7,7 +7,7 @@ interface CommandHistoryEntry {
   mode: "brief" | "verbose";
 }
 
-interface REPLHistoryProps {
+interface REPLHistoryProps{
   history: CommandHistoryEntry[];
 }
 
@@ -30,7 +30,7 @@ export function REPLHistory({ history }: REPLHistoryProps) {
         </table>
       );
     }
-  };
+  }; 
 
   return (
     <div className="repl-history">
