@@ -73,7 +73,7 @@ test("in 'verbose' mode, command is displayed with the result", async ({
 //   await page.getByLabel("Command input").fill("view");
 //   await page.getByLabel("Submit").click();
 //   await expect(page.getByText("Results")).toBeVisible();
-// });
+// })
 
 test ("initially, no data is loaded", async ({ page }) => {
   await page.goto("http://localhost:8000/");
