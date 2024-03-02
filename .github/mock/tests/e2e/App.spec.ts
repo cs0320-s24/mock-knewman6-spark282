@@ -64,7 +64,7 @@ test("in 'verbose' mode, command is displayed with the result", async ({
   await expect(page.getByText("Command: test command")).toBeVisible();
 });
 
-// test("in 'verbose' mode, results are displayed", async { page }) => {
+// test("in 'verbose' mode, results are displayed", async ({ page }) => {
   
 //   await page.goto("http://localhost:8000/");
 //   await page.getByLabel("Login").click();
@@ -75,7 +75,7 @@ test("in 'verbose' mode, command is displayed with the result", async ({
 //   await expect(page.getByText("Results")).toBeVisible();
 // });
 
-test("initially, no data is loaded", async ({ page }) => {
+test ("initially, no data is loaded", async ({ page }) => {
   await page.goto("http://localhost:8000/");
   await page.getByLabel("Login").click();
   await page.getByLabel("Command input").fill("view");
